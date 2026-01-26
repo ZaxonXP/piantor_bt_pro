@@ -55,7 +55,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &HomeLeft LEFT_WIN A  &HomeLeft LEFT_ALT S  &HomeLeft LEFT_CONTROL D  &HomeLeft LEFT_SHIFT F  &lt 7 G  &kp H  &HomeRight RIGHT_SHIFT J  &HomeRight RIGHT_CONTROL K  &HomeRight L LEFT_ALT  &HomeRight LEFT_WIN SEMICOLON      &lt 2 Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH    &lt 3 ESCAPE  &mt RIGHT_ALT SPACE  &lt 1 TAB  &lt 5 ENTER  &mt RIGHT_ALT BACKSPACE  &lt 4 DEL
+  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &HomeLeft LEFT_WIN A  &HomeLeft LALT S  &HomeLeft LEFT_CONTROL D  &HomeLeft LEFT_SHIFT F  &lt 7 G  &kp H  &HomeRight RIGHT_SHIFT J  &HomeRight RIGHT_CONTROL K  &HomeRight LEFT_ALT L  &HomeRight LEFT_WIN SEMICOLON      &lt 2 Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH    &lt 3 ESCAPE  &mt RIGHT_ALT SPACE  &lt 1 TAB  &lt 5 ENTER  &mt RIGHT_ALT BACKSPACE  &lt 4 DEL
             >;
         };
 
