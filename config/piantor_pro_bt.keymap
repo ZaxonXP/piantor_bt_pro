@@ -101,7 +101,7 @@
 
         pc_sel {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp S  &kp F9  &kp F10      &trans  &trans  &trans  &trans  &trans  &trans  &mt KP_MULTIPLY J  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp S  &kp F9  &kp F10      &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
