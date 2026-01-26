@@ -38,6 +38,16 @@
             hold-trigger-key-positions = <29 19 9 8 18 28 7 27 17 16 6 5 15 25 35 34 33>;
             flavor = "balanced";
         };
+
+        star_hold: star_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "STAR_HOLD";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+        };
     };
 
     keymap {
@@ -101,7 +111,7 @@
 
         pc_sel {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp S  &kp F9  &kp F10      &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp S  &kp F9  &kp F10      &trans  &trans  &trans  &trans  &trans  &trans  &star_hold KP_ASTERISK J  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
