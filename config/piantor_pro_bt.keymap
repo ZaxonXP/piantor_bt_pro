@@ -25,10 +25,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <32 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             hold-while-undecided;
-            hold-while-undecided-linger;
-            hold-trigger-on-release;
         };
 
         HomeLeft: HomeLeft {
@@ -39,10 +37,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <29 19 9 8 18 28 7 27 17 16 6 5 15 25 35 34 33 26>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             hold-while-undecided;
-            hold-while-undecided-linger;
-            hold-trigger-on-release;
         };
 
         star_hold: star_hold {
@@ -69,7 +65,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &HomeLeft LEFT_WIN A  &HomeLeft LALT S  &HomeLeft LEFT_CONTROL D  &HomeLeft LEFT_SHIFT F  &lt 7 G  &kp H  &HomeRight RIGHT_SHIFT J  &HomeRight RIGHT_CONTROL K  &HomeRight LEFT_ALT L  &HomeRight LEFT_WIN SEMICOLON      &lt 2 Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH    &lt 3 ESCAPE  &mt RIGHT_ALT SPACE  &lt 1 TAB  &lt 5 ENTER  &mt RIGHT_ALT BACKSPACE  &lt 4 DEL
+  &lt 8 Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &HomeLeft LEFT_WIN A  &HomeLeft LALT S  &HomeLeft LEFT_CONTROL D  &HomeLeft LEFT_SHIFT F  &lt 7 G  &kp H  &HomeRight RIGHT_SHIFT J  &HomeRight RIGHT_CONTROL K  &HomeRight LEFT_ALT L  &HomeRight LEFT_WIN SEMICOLON      &lt 2 Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH    &lt 3 ESCAPE  &mt RIGHT_ALT SPACE  &lt 1 TAB  &lt 5 ENTER  &mt RIGHT_ALT BACKSPACE  &lt 4 DEL
             >;
         };
 
@@ -118,6 +114,12 @@
         pc_sel {
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp S  &kp F9  &kp F10      &trans  &trans  &trans  &trans  &trans  &trans  &star_hold KP_ASTERISK J  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Program {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
